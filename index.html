@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/common.js"></script>
+    <title>코딩네컷</title>
+    <style>
+      
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="photos">
+            <div id="image1" class="photo-frame"
+            onmouseover="hideText(1)"
+            onmouseout="showText(1)"
+            onclick="alertText(1)">
+                <span id="desc1" class="photo_description">노을을 바라보며 :)</span>
+            </div>
+            <div id="image2" class="photo-frame"
+            onmouseover="hideText(2)"
+            onmouseout="showText(2)"
+            onclick="alertText(2)">
+                <span id="desc2" class="photo_description">그림처럼 이뻤던 바닷가</span>
+            </div>
+            <div id="image3" class="photo-frame"
+            onmouseover="hideText(3)"
+            onmouseout="showText(3)"
+            onclick="alertText(3)">
+                <span id="desc3" class="photo_description">멋진 구름 + 물멍 = 힐링!!</span>
+            </div>
+            <div class="photo-frame video-frame">
+                <video class="video" controls>
+                    <source src="./img/4.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="footer">
+            <p class="f-title">나의 기록</p>
+            <p class="f-date">2023.02.14</p>
+        </div>
+    </div>
+</body>
+
+</html>

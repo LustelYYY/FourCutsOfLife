@@ -11,7 +11,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
-    background-image: url("img/background.png");
+    background-image: url("./img/background.png");
 }
 
 .container {
@@ -21,7 +21,7 @@ body {
 }
 
 .photos {
-    margin-top: 30px;   
+    margin-top: 30px;
 }
 
 .photo-frame {
@@ -88,4 +88,3 @@ body {
     font-size: 25px;
     font-weight: 500;
 }
-
